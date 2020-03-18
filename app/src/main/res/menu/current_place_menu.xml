@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/option_address_book"
+        android:title="Go to address book"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/option_current_location"
+        android:title="Add current location"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/option_new_location"
+        android:title="Add new location"
+        app:showAsAction="always"/>
+</menu>

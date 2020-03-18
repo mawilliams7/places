@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/option_address_map"
+        android:title="Go to map"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/option_new_location_list"
+        android:title="Add new location"
+        app:showAsAction="always"/>
+</menu>

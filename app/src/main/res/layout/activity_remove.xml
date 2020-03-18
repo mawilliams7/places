@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/consent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancelremove"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="false"
+            android:text="Cancel"
+            android:layout_weight="0.5"
+            />
+
+        <Button
+            android:id="@+id/confirmremove"
+            android:layout_width="0dp"
+            android:text="Remove"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            />
+    </LinearLayout>
+</LinearLayout>
